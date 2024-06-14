@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+      width: 100vw;
+      color: rgb(222, 210, 210);
+      height: 100vh;
+      font-size: 30px;
+      background-color: rgb(0, 0, 0);
+      background-image: url(https://img1.akspic.ru/crops/7/0/3/4/7/174307/174307-latte-kofe-latte_so_ldom-kofe_so_ldom-karamelnyj_napitok-1920x1080.jpg);  
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cont {
+      background-color: #b7292946;
+      border-radius: 60px;
+      border: white solid 3px;
+      width: 30vw;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transition: 1s;
+    }
+    .cont:hover{
+      background-color: #2b121272;
+      border: rgb(193, 175, 175) solid 3px;
+      width: 40vw;
+      height: 50vh;
+    }
+    .field {
+      text-align: center;
+      width: 80%;
+      border-radius: 10px;
+   
+      height: 40px;
+      color: #b59494;
+    }
+    body::-webkit-scrollbar-thumb {
+      border-radius: 0;
+      border: 0;
+      background-color: #b72929;
+    }
+    body::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 10px;
+      height: 5px;
+      background-color: rgba(23, 25, 23, 0.3);
+    }
+    .butn {
+      border: none;
+      height: 25px;
+      width: 80px;
+      background-color: rgb(222, 209, 209);
+      transition: 2s;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .butn:hover {
+      background-color: rgb(47, 42, 40);
+      color: rgb(225, 223, 222);
+    }
+    .list-group-item {
+      color: rgb(255, 255, 255);
+  
+      margin-top: 5px;
+      font-size: small;
+    }
+    .input-group {
+      justify-content: center;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    .icon {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
